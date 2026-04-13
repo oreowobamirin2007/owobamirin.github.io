@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ousia Cosmetics</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fdfaff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4b2e83;
+    font-weight: 500;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    background: linear-gradient(rgba(75,46,131,0.6), rgba(75,46,131,0.6)),
+    url('logo.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.btn {
+    background: #d8b4ff;
+    color: #4b2e83;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #4b2e83;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+.card p {
+    padding: 0 10px 20px;
+}
+
+.about {
+    background: #f3e8ff;
+    padding: 60px 20px;
+}
+footer {
+    background: #4b2e83;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Ousia Logo">
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Ousia Cosmetics</h1>
+        <p>Luxury lip care for bold, confident beauty</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="lipgloss.jpeg">
+            <h3>Lip Gloss</h3>
+            <p>Glossy shine with long-lasting hydration</p>
+        </div>
+
+        <div class="card">
+            <img src="lip oil.jpeg">
+            <h3>Lip Oil</h3>
+            <p>Soft, nourished lips all day</p>
+        </div>
+
+        <div class="card">
+            <img src="scrub.jpeg">
+            <h3>2 in 1 Lip Scrub</h3>
+            <p>Exfoliate and Moisturize your lips</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>Why Ousia?</h2>
+	<h2 style ="margin-bottom: 15px; 
+    <p style="max-width:600px; margin:auto;">
+        Ousia Cosmetics blends beauty and care to give you premium lip products 
+        that enhance your natural glow while keeping your lips healthy.
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Ousia Cosmetics</p>
+</footer>
+
+</body>
+</html>
+    
